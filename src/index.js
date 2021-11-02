@@ -1,17 +1,29 @@
-import React from 'react';
+import React, {StrictMode} from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import {Header} from "./App";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+/* const text = 'Hello World!';
+
+const elem = (
+    <div>
+        <h2>Текст: {text}</h2>
+        <input className="text" type="text"/>
+        <label htmlFor=""></label>
+        <button tabIndex="0">Click</button>
+    </div>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// const elem = React.createElement('h2', {className: 'greetings'}, 'Hello World!');
+ */
+
+ReactDOM.render(
+ <StrictMode>
+    <App/>
+ </StrictMode>,
+document.getElementById('root')
+);
+
+
+
