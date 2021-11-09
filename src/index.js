@@ -2,7 +2,9 @@ import React, {StrictMode} from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import {Header} from "./App";
+
+// import {Header} from "./App";
+// import App from './Value-counter';
 
 /* const text = 'Hello World!';
 
