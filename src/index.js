@@ -3,7 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import {Button} from "./App";
+import BootsrapTest from "./Bootstrap-Test";
 import styled from "styled-components";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // import {Header} from "./App";
 // import App from './Value-counter';
@@ -33,6 +35,7 @@ ReactDOM.render(
  <StrictMode>
     <App/>
      <BigButton as="a">Отправить отчет</BigButton>
+     <BootsrapTest/>
  </StrictMode>,
 document.getElementById('root')
 );
